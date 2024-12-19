@@ -1,0 +1,9 @@
+<div class="navbar bg-gray-300 border-2 border-black">
+    <div class="container max-w-6xl mx-auto py-8">
+        {% for link in linklists.main-menu.links %}
+            <div>
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
